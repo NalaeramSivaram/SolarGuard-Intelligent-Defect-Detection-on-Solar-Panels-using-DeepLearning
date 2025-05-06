@@ -1,0 +1,13 @@
+train: "F:/DS/solar/Solardefect/data/train/images"
+val: "F:/DS/solar/Solardefect/data/valid/images"
+test: "F:/DS/solar/Solardefect/data/test/images"
+
+nc: 4
+names: ['Bird Drop', 'Dust', 'Electrical Damage', 'physical Damage']
+
+roboflow:
+  workspace: sloar-panel-defects
+  project: solar_defect_locater
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sloar-panel-defects/solar_defect_locater/dataset/1
